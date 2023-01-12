@@ -1,0 +1,141 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --tc-primary: #E1E1E6;
+  --tc-secondary: #C4C4CC;
+  --bt-color: #02799D;
+  --bt-background: #FFFFFF;
+}
+
+:root {
+  font-size: 62.5%;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+}
+
+
+
+.first{
+  background-image: url(/resources/mountains-universe-1.png);
+}
+.second{
+  background-image: url(/resources/mountains-universe02.png);
+}
+
+.third{
+  background-image: url(/resources/mountains-universe-3.png);
+}
+
+
+header{
+  height: 12.2rem;
+  margin-top: 4rem;
+  margin-left: 7.2rem;
+  font-weight: 400;
+  
+}
+
+header h2 a{
+  text-decoration: none;
+  color: var(--tc-secondary);
+  font-size: 2.1rem;
+  line-height: 2.2rem;
+  transition: 300ms;
+}
+header h2 a:hover{
+  color: var(--tc-primary);
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+ 
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  height: 4.2rem;
+  align-items: center;
+  gap: 3.2rem;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  font-weight: 700;
+}
+
+main h1{
+  margin-top: 17.2rem;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+
+  color: var(--tc-primary);
+  width: 39.9rem;
+  height: 6rem;
+
+  font-size: 4.8rem;
+  line-height: 6rem;
+  font-weight: 400;
+}
+main .button {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+
+  width: 19.6rem;
+  height: 4.8rem;
+  margin-top: 2.4rem;
+  background: var(--bt-background);
+
+  border: 2px solid #FFFFFF;
+  border-radius: 5px;
+  color: var(--bt-color);
+  
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  transition: 300ms;
+
+  text-decoration: none;
+
+}
+
+main .button:hover{
+  color: var(--bt-background);
+  background: none;
+  cursor: pointer;
+}
+
+main h2{
+  display: flex;
+
+  margin-top: 6.3rem;
+  margin: 6.3rem auto 1.6rem 10.2rem;
+  
+  color: var(--tc-primary);
+  width: 39.9rem;
+  height: 6rem;
+
+  font-size: 4.8rem;
+  line-height: 6rem;
+}
+
+main p{
+  display: flex;
+
+  margin-top: 6.3rem;
+  margin: 6.3rem auto 1.6rem 10.2rem;
+  
+  color: var(--tc-primary);
+  width: 64.8rem;
+  height: 20rem;
+
+  font-size: 1.8rem;
+  line-height: 2.88rem;
+  font-weight: 400;
+}
