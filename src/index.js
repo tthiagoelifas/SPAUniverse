@@ -11,6 +11,3 @@ router.add(404, '/views/404.html')
 router.handle()
 window.route = () => router.route()
 window.onpopstate = () => router.handle()
-
-
-const homePage = document
